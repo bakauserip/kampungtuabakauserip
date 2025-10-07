@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +9,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <style>
         body {
             font-family: 'Poppins', sans-serif;
             scroll-behavior: smooth;
         }
+
         .hero-section {
-            background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('assets/img/bg.jpg');
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('assets/img-produk/bg-utama.jpg');
             background-size: cover;
             background-position: center;
             height: 100vh;
@@ -24,6 +27,7 @@
         .nav-link {
             position: relative;
         }
+
         .nav-link::after {
             content: '';
             position: absolute;
@@ -34,23 +38,29 @@
             background-color: #F9A826;
             transition: width 0.3s;
         }
+
         .nav-link:hover::after {
             width: 100%;
         }
+
         .btn-primary {
             transition: all 0.3s ease;
         }
+
         .btn-primary:hover {
             transform: translateY(-3px);
             box-shadow: 0 10px 20px rgba(249, 168, 38, 0.3);
         }
+
         .card {
             transition: all 0.3s ease;
         }
+
         .card:hover {
             transform: translateY(-10px);
             box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
         }
+
         .panorama-container {
             height: 500px;
             background-color: #f1f1f1;
@@ -58,20 +68,25 @@
             overflow: hidden;
             border-radius: 10px;
         }
+
         .marketplace-item {
             transition: all 0.3s ease;
         }
+
         .marketplace-item:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
         }
+
         .category-tag {
             transition: all 0.3s ease;
         }
+
         .category-tag:hover {
             background-color: #F9A826;
             color: white;
         }
+
         .floating-icons {
             position: fixed;
             right: 20px;
@@ -80,15 +95,15 @@
         }
 
         .responsive-img {
-            width: 100%;      
-            height: auto;   
-            max-width: 600px; 
+            width: 100%;
+            height: auto;
+            max-width: 600px;
             border-radius: 12px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
-
     </style>
 </head>
+
 <body>
     <!-- Navbar -->
     <nav class="bg-white shadow-md fixed w-full z-50 transition-all duration-300">
@@ -115,13 +130,17 @@
     <!-- Hero Section -->
     <section id="home" class="hero-section flex items-center justify-center">
         <div class="text-center">
-            <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">Kampung Tua <span class="block text-yellow-400">Bakau Serip</span></h1>
-            <p class="text-lg md:text-xl text-white mb-8 max-w-2xl mx-auto">Harmoni kehidupan bakau dengan laut di tengah keindahan Mangrove, testimoni keberadaan Maha Kuasa</p>
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">Kampung Tua <span
+                    class="block text-yellow-400">Bakau Serip</span></h1>
+            <p class="text-lg md:text-xl text-white mb-8 max-w-2xl mx-auto">Harmoni kehidupan bakau dengan laut di
+                tengah keindahan Mangrove, testimoni keberadaan Maha Kuasa</p>
             <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 justify-center">
-                <a href="#vrtour" class="btn-primary bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-full focus:outline-none">
+                <a href="#vrtour"
+                    class="btn-primary bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-full focus:outline-none">
                     <i class="fas fa-vr-cardboard mr-2"></i>Jelajahi VR Tour
                 </a>
-                <a href="#marketplace" class="btn-primary bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-full focus:outline-none">
+                <a href="#marketplace"
+                    class="btn-primary bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-full focus:outline-none">
                     <i class="fas fa-shopping-basket mr-2"></i>Oleh-Oleh Khas
                 </a>
             </div>
@@ -137,21 +156,24 @@
                         <i class="fas fa-tree text-white text-2xl"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-2 text-green-800">Hutan Mangrove</h3>
-                    <p class="text-gray-600">Eksplorasi keindahan ekosistem mangrove yang telah berusia ratusan tahun</p>
+                    <p class="text-gray-600">Eksplorasi keindahan ekosistem mangrove yang telah berusia ratusan tahun
+                    </p>
                 </div>
                 <div class="bg-yellow-50 rounded-xl p-6 text-center">
                     <div class="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-4">
                         <i class="fas fa-users text-white text-2xl"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-2 text-yellow-800">Wisata Berbasis Komunitas</h3>
-                    <p class="text-gray-600">Dukung ekonomi lokal dengan pengalaman wisata yang dikelola masyarakat setempat</p>
+                    <p class="text-gray-600">Dukung ekonomi lokal dengan pengalaman wisata yang dikelola masyarakat
+                        setempat</p>
                 </div>
                 <div class="bg-blue-50 rounded-xl p-6 text-center">
                     <div class="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
                         <i class="fas fa-sun text-white text-2xl"></i>
                     </div>
                     <h3 class="text-xl font-semibold mb-2 text-blue-800">Pesona Sunset</h3>
-                    <p class="text-gray-600">Nikmati keindahan matahari terbenam di tengah hutan bakau yang memukau yang mengarah ke 3 negara</p>
+                    <p class="text-gray-600">Nikmati keindahan matahari terbenam di tengah hutan bakau yang memukau yang
+                        mengarah ke 3 negara</p>
                 </div>
             </div>
         </div>
@@ -161,87 +183,105 @@
     <section id="about" class="py-16 bg-gray-50">
         <div class="container mx-auto px-6">
             <div class="flex flex-col md:flex-row items-center">
+                <!-- Bagian teks -->
                 <div class="md:w-1/2 mb-8 md:mb-0 md:pr-10">
-                    <h2 class="text-3xl font-bold text-green-800 mb-4">Mengenal Lebih Jauh <span class="text-yellow-500">Kampung Tua Bakau Serip</span></h2>
-                    <p class="text-gray-700 mb-6">Desa Wisata Kampung Tua Bakau Serip terletak di dataran rendah yang mencakup kawasan dataran serta pesisir pantai. Lokasinya cukup strategis, hanya berjarak sekitar 45 menit dari pusat Kota Batam dan 10 menit dari Batam International Hang Nadim, dan 5 menit dari Pelabuhan International Nongsapura.</p>
-                    <p class="text-gray-700 mb-6">Kampung ini menawarkan pengalaman autentik dengan keindahan alam mangrove yang terawat, budaya lokal yang dilestarikan, dan kuliner khas pesisir yang menggugah selera.</p>
-                    <a href="#" class="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1">
+                    <h2 class="text-3xl font-bold text-green-800 mb-4">
+                        Mengenal Lebih Jauh
+                        <span class="text-yellow-500">Kampung Tua Bakau Serip</span>
+                    </h2>
+                    <p class="text-gray-700 mb-6">
+                        Desa Wisata Kampung Tua Bakau Serip terletak di dataran rendah yang mencakup kawasan dataran
+                        serta pesisir pantai. Lokasinya cukup strategis, hanya berjarak sekitar 45 menit dari pusat Kota
+                        Batam dan 10 menit dari Batam International Hang Nadim, dan 5 menit dari Pelabuhan International
+                        Nongsapura.
+                    </p>
+                    <p class="text-gray-700 mb-6">
+                        Kampung ini menawarkan pengalaman autentik dengan keindahan alam mangrove yang terawat, budaya
+                        lokal yang dilestarikan, dan kuliner khas pesisir yang menggugah selera.
+                    </p>
+                    <a href="sejarah-lengkap.html"
+                        class="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1">
                         Lebih Lanjut
                     </a>
                 </div>
-                <div class="md:w-1/2">
+
+                <!-- Bagian gambar -->
+                <div class="md:w-1/2 grid grid-cols-2 gap-4">
                     <div class="relative">
-                        <img src="assets/img/img-mengenal.jpeg" alt="Kampung Tua Bakau Serip" class="rounded-lg shadow-lg w-full max-w-md h-auto">
-                        <div class="absolute -bottom-4 -right-4 bg-white p-4 rounded-lg shadow-lg">
-                            <p class="text-green-800 font-bold">Penghargaan ADWI 2022</p>
-                            <p class="text-sm text-gray-600">Desa Wisata Terbaik</p>
-                        </div>
+                        <img src="assets/img/img-mengenal.jpeg" alt="Kampung Tua Bakau Serip"
+                            class="rounded-lg shadow-lg w-full h-auto object-cover">
+                    </div>
+                    <div class="relative">
+                        <img src="assets/img-produk/tim.jpg" alt="Pemandangan Kampung Tua"
+                            class="rounded-lg shadow-lg w-full h-auto object-cover">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-        <div class="container mx-auto px-6">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-green-800">Pesona <span class="text-yellow-500">Tak Terlupakan</span></h2>
-                <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Temukan keindahan dan pengalaman unik yang hanya bisa Anda temukan di Kampung Tua Bakau Serip</p>
+
+    <div class="container mx-auto px-6">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-green-800">Pesona <span class="text-yellow-500">Tak Terlupakan</span>
+            </h2>
+            <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Temukan keindahan dan pengalaman unik yang hanya bisa Anda
+                temukan di Kampung Tua Bakau Serip</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="card bg-white rounded-xl overflow-hidden shadow-lg">
+                <img src="assets/img/img-hutanalami.jpeg" alt="Hutan Alami" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-green-800 mb-2">Hutan Alami</h3>
+                    <p class="text-gray-600 mb-4">Kampung Tua Bakau Serip mengajukan kerjasama dengan menyelaraskan
+                        fungsi hutan dan mengajak masyarakat untuk menjaga keasrian alam yang ada dan habitat beragam
+                        flora serta fauna.</p>
+                </div>
             </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="card bg-white rounded-xl overflow-hidden shadow-lg">
-                    <img src="assets/img/img-hutanalami.jpeg" alt="Hutan Alami" class="w-full h-56 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold text-green-800 mb-2">Hutan Alami</h3>
-                        <p class="text-gray-600 mb-4">Kampung Tua Bakau Serip mengajukan kerjasama dengan menyelaraskan fungsi hutan dan mengajak masyarakat untuk menjaga keasrian alam yang ada dan habitat beragam flora serta fauna.</p>
-                        <a href="#" class="text-yellow-500 font-semibold hover:text-yellow-600 inline-flex items-center">
-                            Jelajahi <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                    </div>
+
+            <div class="card bg-white rounded-xl overflow-hidden shadow-lg">
+                <img src="assets/img/img-community.jpeg" alt="Community Based Tourism" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-green-800 mb-2">Community Based Tourism</h3>
+                    <p class="text-gray-600 mb-4">Warga desa aktif terlibat berperan aktif dalam menjaga dan
+                        melestarikan hutan bakau di wilayah tersebut. Kampung ini mendapatkan nominasi 50 Desa Wisata
+                        Terbaik 2022.</p>
                 </div>
-                
-                <div class="card bg-white rounded-xl overflow-hidden shadow-lg">
-                    <img src="assets/img/img-community.jpeg" alt="Community Based Tourism" class="w-full h-56 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold text-green-800 mb-2">Community Based Tourism</h3>
-                        <p class="text-gray-600 mb-4">Warga desa aktif terlibat berperan aktif dalam menjaga dan melestarikan hutan bakau di wilayah tersebut. Kampung ini mendapatkan nominasi 50 Desa Wisata Terbaik 2022.</p>
-                        <a href="#" class="text-yellow-500 font-semibold hover:text-yellow-600 inline-flex items-center">
-                            Jelajahi <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="card bg-white rounded-xl overflow-hidden shadow-lg">
-                    <img src="assets/img/img-pesonaalam.jpeg" alt="Pesona Alam" class="w-full h-56 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold text-green-800 mb-2">Pesona Alam</h3>
-                        <p class="text-gray-600 mb-4">Kampung Tua Bakau Serip memiliki dua pantai indah yang dapat diakses untuk menikmati keindahan langit ke Malaya dan Singapura, sehingga pengunjung dapat menikmati pemandangan laut yang menawan.</p>
-                        <a href="#" class="text-yellow-500 font-semibold hover:text-yellow-600 inline-flex items-center">
-                            Jelajahi <i class="fas fa-arrow-right ml-2"></i>
-                        </a>
-                    </div>
+            </div>
+
+            <div class="card bg-white rounded-xl overflow-hidden shadow-lg">
+                <img src="assets/img/img-pesonaalam.jpeg" alt="Pesona Alam" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-green-800 mb-2">Pesona Alam</h3>
+                    <p class="text-gray-600 mb-4">Kampung Tua Bakau Serip memiliki dua pantai indah yang dapat diakses
+                        untuk menikmati keindahan langit ke Malaya dan Singapura, sehingga pengunjung dapat menikmati
+                        pemandangan laut yang menawan.</p>
                 </div>
             </div>
         </div>
+    </div>
     </section> -->
 
     <!-- VR Tour Section -->
     <section id="vrtour" class="py-16 bg-green-50">
         <div class="container mx-auto px-6">
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-green-800">Jelajahi dengan <span class="text-yellow-500">VR Tour 360°</span></h2>
-                <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Rasakan pengalaman immersif menjelajahi keindahan Kampung Tua Bakau Serip dari mana saja</p>
+                <h2 class="text-3xl font-bold text-green-800">Jelajahi dengan <span class="text-yellow-500">VR Tour
+                        360°</span></h2>
+                <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Rasakan pengalaman immersif menjelajahi keindahan
+                    Kampung Tua Bakau Serip dari mana saja</p>
             </div>
-            
+
             <div class="panorama-container mb-8">
-                <img src="assets/img/img-vr.jpg" alt="VR Tour 360 Preview" class="w-full h-full object-cover">
+                <img src="assets/img-produk/vr-tour.jpg" alt="VR Tour 360 Preview" class="w-full h-full object-cover">
                 <div class="absolute inset-0 flex items-center justify-center">
-                 <a href="webvr.html" target="_blank" rel="noopener noreferrer"
-                class="inline-block bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1">
-                <i class="fas fa-vr-cardboard mr-2"></i>Mulai Tour VR 360°
-                </a>
+                    <a href="webvr.html" target="_blank" rel="noopener noreferrer"
+                        class="inline-block bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:-translate-y-1">
+                        <i class="fas fa-vr-cardboard mr-2"></i>Mulai Tour VR 360°
+                    </a>
                 </div>
             </div>
-            
+
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div class="bg-white rounded-lg overflow-hidden shadow-md cursor-pointer">
                     <img src="assets/img/img-jembatan.jpg" alt="Hutan Mangrove" class="w-full h-40 object-cover">
@@ -250,7 +290,7 @@
                         <p class="text-sm text-gray-600">Jelajahi keindahan hutan bakau dari ketinggian</p>
                     </div>
                 </div>
-                
+
                 <div class="bg-white rounded-lg overflow-hidden shadow-md cursor-pointer">
                     <img src="assets/img/img-sunset.jpeg" alt="Sunset Point" class="w-full h-40 object-cover">
                     <div class="p-4">
@@ -258,7 +298,7 @@
                         <p class="text-sm text-gray-600">Nikmati pemandangan sore yang memukau</p>
                     </div>
                 </div>
-                
+
                 <div class="bg-white rounded-lg overflow-hidden shadow-md cursor-pointer">
                     <img src="assets/img/img-market.jpg" alt="Traditional Market" class="w-full h-40 object-cover">
                     <div class="p-4">
@@ -267,7 +307,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="text-center mt-8">
 
             </div>
@@ -275,7 +315,7 @@
     </section>
 
     <!-- Marketplace Section -->
-       <section id="marketplace" class="py-16 bg-white">
+    <section id="marketplace" class="py-16 bg-white">
         <div class="container mx-auto px-6">
             <div class="text-center mb-12">
                 <h2 class="text-3xl font-bold text-green-800">Oleh-Oleh <span class="text-yellow-500">Khas</span></h2>
@@ -295,70 +335,274 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
                 <div class="marketplace-item bg-white rounded-lg overflow-hidden shadow-md">
                     <div class="relative">
-                        <img src="assets/img/haha.jpg" alt="Kerupuk Ikan" class="w-full h-48 object-cover">
+                        <img src="assets/img-produk/gantungan-akrilik.jpg" alt="Kerupuk Ikan"
+                            class="w-full h-48 object-cover">
                         <span
                             class="absolute top-2 right-2 bg-yellow-500 text-white text-xs font-bold px-2 py-1 rounded">Bestseller</span>
                     </div>
                     <div class="p-4">
-                        <h3 class="font-bold text-gray-800">Gantungan Gurita</h3>
-                        <p class="text-sm text-gray-600 mb-2">Bisa digunakan sebagai pajangan dan gantungan kunci yang
-                            terbuat dari kerang</p>
-                        <div class="flex justify-between items-center">
-                            <button class="bg-green-500 hover:bg-green-600 text-white p-2 rounded-full">
-                                <i class="fas fa-shopping-cart"></i>
-                            </button>
-                        </div>
+                        <h3 class="font-bold text-gray-800">Gantungan Akrilik</h3>
+                        <p class="text-sm text-gray-600 mb-2">Gantungan akrilik unik, ringan, kuat, tahan lama, cocok
+                            untuk hadiah.</p>
                     </div>
                 </div>
 
                 <div class="marketplace-item bg-white rounded-lg overflow-hidden shadow-md">
                     <div class="relative">
-                        <img src="assets/img/hem.jpg" alt="Anyaman Bakau" class="w-full h-48 object-cover">
+                        <img src="assets/img-produk/dompet-rajut.jpg" alt="Anyaman Bakau"
+                            class="w-full h-48 object-cover">
                     </div>
                     <div class="p-4">
-                        <h3 class="font-bold text-gray-800">Perhiasan Kerang</h3>
-                        <p class="text-sm text-gray-600 mb-2">Kerajinan tangan cangkang kerang</p>
-                        <div class="flex justify-between items-center">
-                            <button class="bg-green-500 hover:bg-green-600 text-white p-2 rounded-full">
-                                <i class="fas fa-shopping-cart"></i>
-                            </button>
-                        </div>
+                        <h3 class="font-bold text-gray-800">Dompet rajut</h3>
+                        <p class="text-sm text-gray-600 mb-2">Dompet rajut handmade, unik, stylish, awet, cocok untuk
+                            hadiah.</p>
+
                     </div>
                 </div>
 
                 <div class="marketplace-item bg-white rounded-lg overflow-hidden shadow-md">
                     <div class="relative">
-                        <img src="assets/img/gantungan.jpg" alt="Madu Bakau" class="w-full h-48 object-cover">
+                        <img src="assets/img-produk/gelang.jpg" alt="Madu Bakau" class="w-full h-48 object-cover">
                     </div>
                     <div class="p-4">
-                        <h3 class="font-bold text-gray-800">Gantungan</h3>
-                        <p class="text-sm text-gray-600 mb-2">Mainan Gantungan yang terbuat dari hewan hewan laut yang
-                            ada di bakau</p>
-                        <div class="flex justify-between items-center">
-                            <button class="bg-green-500 hover:bg-green-600 text-white p-2 rounded-full">
-                                <i class="fas fa-shopping-cart"></i>
-                            </button>
-                        </div>
+                        <h3 class="font-bold text-gray-800">Gelang</h3>
+                        <p class="text-sm text-gray-600 mb-2">Gelang elegan, simpel, stylish, cocok untuk fashion
+                            sehari-hari.</p>
+
                     </div>
                 </div>
 
                 <div class="marketplace-item bg-white rounded-lg overflow-hidden shadow-md">
                     <div class="relative">
-                        <img src="assets/img/asbak.jpg" alt="Paket Wisata Edukasi" class="w-full h-48 object-cover">
+                        <img src="assets/img-produk/rajut-mancis.jpg" alt="Paket Wisata Edukasi"
+                            class="w-full h-48 object-cover">
                     </div>
                     <div class="p-4">
-                        <h3 class="font-bold text-gray-800">Asbak laut</h3>
-                        <p class="text-sm text-gray-600 mb-2">Kerajinan Asbak yang terbuat dari proses daur ulang barang
-                            laut</p>
-                        <div class="flex justify-between items-center">
-                            <button class="bg-green-500 hover:bg-green-600 text-white p-2 rounded-full">
-                                <i class="fas fa-shopping-cart"></i>
-                            </button>
-                        </div>
+                        <h3 class="font-bold text-gray-800">Rajut mancis</h3>
+                        <p class="text-sm text-gray-600 mb-2">Rajut mancis handmade, unik, lucu, praktis, cocok untuk
+                            souvenir.</p>
+
                     </div>
                 </div>
             </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="marketplace-item bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="relative">
+                        <img src="assets/img-produk/rajut-strowbery.jpg" alt="Kerupuk Ikan"
+                            class="w-full h-48 object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-gray-800">Rajut strawberry</h3>
+                        <p class="text-sm text-gray-600 mb-2">Rajut strawberry lucu, unik, handmade, cantik, cocok jadi
+                            gantungan.</p>
+
+                    </div>
+                </div>
+
+                <div class="marketplace-item bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="relative">
+                        <img src="assets/img-produk/rajut-boneka.jpg" alt="Anyaman Bakau"
+                            class="w-full h-48 object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-gray-800">Gantungan rajut boneka</h3>
+                        <p class="text-sm text-gray-600 mb-2">Gantungan rajut boneka lucu, unik, handmade, awet, cocok
+                            untuk hadiah.</p>
+
+                    </div>
+                </div>
+
+                <div class="marketplace-item bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="relative">
+                        <img src="assets/img-produk/rajut-bunga.jpg" alt="Madu Bakau" class="w-full h-48 object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-gray-800">Rajut bunga</h3>
+                        <p class="text-sm text-gray-600 mb-2">Rajut bunga cantik, handmade, unik, awet, cocok untuk
+                            hiasan.</p>
+
+                    </div>
+                </div>
+
+                <div class="marketplace-item bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="relative">
+                        <img src="assets/img-produk/rajut matahari.jpg" alt="Paket Wisata Edukasi"
+                            class="w-full h-48 object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-gray-800">Rajut matahari</h3>
+                        <p class="text-sm text-gray-600 mb-2">Rajut matahari ceria, unik, handmade, cantik, cocok untuk
+                            gantungan.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="marketplace-item bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="relative">
+                        <img src="assets/img-produk/rajut-strowbery.jpg" alt="Kerupuk Ikan"
+                            class="w-full h-48 object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-gray-800">Gantungan rajut kecil</h3>
+                        <p class="text-sm text-gray-600 mb-2">Gantungan rajut kecil, simple, unik, lucu, cocok untuk
+                            souvenir.</p>
+
+                    </div>
+                </div>
+
+                <div class="marketplace-item bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="relative">
+                        <img src="assets/img-produk/sendal.jpg" alt="Anyaman Bakau" class="w-full h-48 object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-gray-800">Rajut sendal</h3>
+                        <p class="text-sm text-gray-600 mb-2">Rajut sendal handmade, unik, nyaman, stylish, cocok untuk
+                            sehari-hari.</p>
+
+                    </div>
+                </div>
+
+                <div class="marketplace-item bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="relative">
+                        <img src="assets/img-produk/rajut tas.jpg" alt="Madu Bakau" class="w-full h-48 object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-gray-800">Rajut tas</h3>
+                        <p class="text-sm text-gray-600 mb-2">Rajut tas handmade, unik, stylish, kuat, cocok untuk
+                            berbagai acara.</p>
+
+                    </div>
+                </div>
+
+                <div class="marketplace-item bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="relative">
+                        <img src="assets/img-produk/tanjal.jpg" alt="Paket Wisata Edukasi"
+                            class="w-full h-48 object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-gray-800">Tanjak</h3>
+                        <p class="text-sm text-gray-600 mb-2">Tanjak khas Melayu, simbol kehormatan, budaya, identitas,
+                            dan kebanggaan.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="marketplace-item bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="relative">
+                        <img src="assets/img-produk/centong kayu.jpg" alt="Kerupuk Ikan"
+                            class="w-full h-48 object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-gray-800">Centong kayu</h3>
+                        <p class="text-sm text-gray-600 mb-2">Centong kayu alami, kuat, awet, ramah lingkungan, cocok
+                            untuk dapur.</p>
+
+                    </div>
+                </div>
+
+                <div class="marketplace-item bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="relative">
+                        <img src="assets/img-produk/mangkok tempurung.jpg" alt="Anyaman Bakau"
+                            class="w-full h-48 object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-gray-800">Mangkok tempurung</h3>
+                        <p class="text-sm text-gray-600 mb-2">Mangkok tempurung kelapa unik, alami, ramah lingkungan,
+                            cocok untuk sajian.</p>
+
+                    </div>
+                </div>
+
+                <div class="marketplace-item bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="relative">
+                        <img src="assets/img-produk/daster batik.jpg" alt="Madu Bakau" class="w-full h-48 object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-gray-800">Daster batik</h3>
+                        <p class="text-sm text-gray-600 mb-2">Daster batik nyaman, adem, elegan, cantik, cocok dipakai
+                            sehari-hari.</p>
+
+                    </div>
+                </div>
+
+                <div class="marketplace-item bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="relative">
+                        <img src="assets/img-produk/kain batik bakau.jpg" alt="Paket Wisata Edukasi"
+                            class="w-full h-48 object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-gray-800">Kain batik bakau</h3>
+                        <p class="text-sm text-gray-600 mb-2">Kain batik bakau khas, motif unik, elegan, bernuansa alam
+                            pesisir.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="marketplace-item bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="relative">
+                        <img src="assets/img-produk/gantungan rumah (gong gong).jpg" alt="Kerupuk Ikan"
+                            class="w-full h-48 object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-gray-800">Gantungan rumah gonggong</h3>
+                        <p class="text-sm text-gray-600 mb-2">Gantungan rumah gonggong unik, khas Batam, handmade, cocok
+                            jadi souvenir.</p>
+
+                    </div>
+                </div>
+
+                <div class="marketplace-item bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="relative">
+                        <img src="assets/img-produk/wadah rotan.jpg" alt="Anyaman Bakau"
+                            class="w-full h-48 object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-gray-800">Wadah rotan</h3>
+                        <p class="text-sm text-gray-600 mb-2">Wadah rotan alami, kuat, awet, ramah lingkungan, cocok
+                            untuk dekorasi.</p>
+
+                    </div>
+                </div>
+
+                <div class="marketplace-item bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="relative">
+                        <img src="assets/img-produk/hiasan seafood.jpg" alt="Madu Bakau"
+                            class="w-full h-48 object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-gray-800">Hiasan seafood</h3>
+                        <p class="text-sm text-gray-600 mb-2">Hiasan seafood unik, kreatif, cantik, cocok untuk dekorasi
+                            dan souvenir.</p>
+
+                    </div>
+                </div>
+
+                <div class="marketplace-item bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="relative">
+                        <img src="assets/img-produk/miniatur patung.jpg" alt="Paket Wisata Edukasi"
+                            class="w-full h-48 object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-gray-800">Miniatur patung</h3>
+                        <p class="text-sm text-gray-600 mb-2">Miniatur patung unik, detail, artistik, cantik, cocok
+                            untuk koleksi.</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+
             <br>
+
+
             <div class="text-center mb-1">
                 <h2 class="text-2xl font-bold text-green-800">Our <span class="text-yellow-500">Store</span></h2>
             </div>
@@ -383,53 +627,63 @@
     </section>
     <!-- Donation Section -->
     <section id="donation" class="py-16 bg-green-50">
-            <div class="container mx-auto px-6">
-                <div class="text-center mb-12">
-                    <h2 class="text-3xl font-bold text-green-800">Dukung <span class="text-yellow-500">Pelestarian Kami</span></h2>
-                    <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Donasi Anda membantu kami melestarikan ekosistem mangrove dan mengembangkan kesejahteraan masyarakat lokal</p>
-                </div>
-                
-                <div class="bg-white rounded-xl shadow-lg p-8 mb-12">
-                    <div class="flex flex-col md:flex-row gap-8 mb-8">
-                        <div class="md:w-2/3">
-                            <h3 class="text-2xl font-bold text-green-800 mb-4">Proyek Pelestarian dan Pengembangan Wisata Mangrove</h3>
-                            <p class="text-gray-600 mb-4">Kampung Tua Bakau Serip sedang menggalang dana untuk mendukung pengembangan kawasan wisata mangrove melalui pembangunan jalur edukasi, peningkatan fasilitas pengunjung, dan penyediaan sarana pendukung lainnya. Upaya ini bertujuan untuk menjadikan kawasan wisata mangrove lebih menarik, edukatif, dan berkelanjutan bagi masyarakat dan wisatawan.</p>
-                            <div class="mb-6">
-                                <div class="flex justify-between text-sm font-medium mb-2">
-                                </div>
-                                <div class="donation-progress">
-                                    <div class="donation-progress-bar" style="width: 47%"></div>
-                                </div>
-                            </div>
-                            <div class="grid grid-cols-2 gap-4 mb-6">
-                                <div class="bg-green-50 p-3 rounded-lg text-center">
-                                    <p class="text-sm text-gray-500"> Jumlah Donatur</p>
-                                    <p class="font-bold text-green-800 text-xl">5</p>
-                                </div>
-                                <div class="bg-green-50 p-3 rounded-lg text-center">
-                                    <p class="text-sm text-gray-500">Total Donasi</p>
-                                    <p class="font-bold text-green-800 text-xl">Rp 75.000</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="md:w-1/3">
-                            <img src="assets/img/img-bibitmangrove.jpg" alt="Proyek Pelestarian Mangrove" class="w-full h-auto rounded-lg shadow mb-4">
-                            <a href="#donateNow" class="block text-center bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300 shadow-md">
-                                <i class="fas fa-hand-holding-heart mr-2"></i>Donasi Sekarang
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div id="donateNow" class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-                    <!-- Bagian QR Code Donasi -->
-                    <div class="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center justify-center">
-                        <h3 class="text-xl font-bold text-green-800 mb-6 text-center">Scan QR Code untuk Berdonasi</h3>
-                        <img src="assets/img/QR-DONASI.jpg" alt="QR Code Donasi" class="w-64 h-64 object-contain mb-4">
-                        <p class="text-gray-600 text-center">Silakan scan kode QR di atas untuk melakukan donasi melalui e-wallet atau aplikasi perbankan Anda.</p>
-                    </div>
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-green-800">Dukung <span class="text-yellow-500">Pelestarian
+                        Kami</span></h2>
+                <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Donasi Anda membantu kami melestarikan ekosistem
+                    mangrove dan mengembangkan kesejahteraan masyarakat lokal</p>
+            </div>
 
-<div class="bg-white rounded-xl shadow-lg p-8" x-data="{
+            <div class="bg-white rounded-xl shadow-lg p-8 mb-12">
+                <div class="flex flex-col md:flex-row gap-8 mb-8">
+                    <div class="md:w-2/3">
+                        <h3 class="text-2xl font-bold text-green-800 mb-4">Proyek Pelestarian dan Pengembangan Wisata
+                            Mangrove</h3>
+                        <p class="text-gray-600 mb-4">Kampung Tua Bakau Serip sedang menggalang dana untuk mendukung
+                            pengembangan kawasan wisata mangrove melalui pembangunan jalur edukasi, peningkatan
+                            fasilitas pengunjung, dan penyediaan sarana pendukung lainnya. Upaya ini bertujuan untuk
+                            menjadikan kawasan wisata mangrove lebih menarik, edukatif, dan berkelanjutan bagi
+                            masyarakat dan wisatawan.</p>
+                        <div class="mb-6">
+                            <div class="flex justify-between text-sm font-medium mb-2">
+                            </div>
+                            <div class="donation-progress">
+                                <div class="donation-progress-bar" style="width: 47%"></div>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-4 mb-6">
+                            <div class="bg-green-50 p-3 rounded-lg text-center">
+                                <p class="text-sm text-gray-500"> Jumlah Donatur</p>
+                                <p class="font-bold text-green-800 text-xl">5</p>
+                            </div>
+                            <div class="bg-green-50 p-3 rounded-lg text-center">
+                                <p class="text-sm text-gray-500">Total Donasi</p>
+                                <p class="font-bold text-green-800 text-xl">Rp 75.000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/3">
+                        <img src="assets/img/img-bibitmangrove.jpg" alt="Proyek Pelestarian Mangrove"
+                            class="w-full h-auto rounded-lg shadow mb-4">
+                        <a href="#donateNow"
+                            class="block text-center bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300 shadow-md">
+                            <i class="fas fa-hand-holding-heart mr-2"></i>Donasi Sekarang
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="donateNow" class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                <!-- Bagian QR Code Donasi -->
+                <div class="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center justify-center">
+                    <h3 class="text-xl font-bold text-green-800 mb-6 text-center">Scan QR Code untuk Berdonasi</h3>
+                    <img src="assets/img/QR-DONASI.jpg" alt="QR Code Donasi" class="w-64 h-64 object-contain mb-4">
+                    <p class="text-gray-600 text-center">Silakan scan kode QR di atas untuk melakukan donasi melalui
+                        e-wallet atau aplikasi perbankan Anda.</p>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg p-8" x-data="{
         currentSlide: 0,
         slides: [
             {
@@ -446,53 +700,49 @@
             }
         ]
     }">
-    <h3 class="text-xl font-bold text-green-800 mb-6 text-center">Dokumentasi Kegiatan</h3>
+                    <h3 class="text-xl font-bold text-green-800 mb-6 text-center">Dokumentasi Kegiatan</h3>
 
-    <!-- Slide Gambar -->
-    <div class="relative w-full overflow-hidden rounded-lg">
-        <template x-for="(slide, index) in slides" :key="index">
-            <div
-                x-show="currentSlide === index"
-                x-transition:enter="transition ease-out duration-500"
-                x-transition:enter-start="opacity-0 scale-95"
-                x-transition:enter-end="opacity-100 scale-100"
-                class="w-full"
-            >
-                <div class="w-full h-64 rounded-lg overflow-hidden">
-                    <img :src="slide.img" alt="" class="w-full h-full object-cover rounded-lg">
+                    <!-- Slide Gambar -->
+                    <div class="relative w-full overflow-hidden rounded-lg">
+                        <template x-for="(slide, index) in slides" :key="index">
+                            <div x-show="currentSlide === index" x-transition:enter="transition ease-out duration-500"
+                                x-transition:enter-start="opacity-0 scale-95"
+                                x-transition:enter-end="opacity-100 scale-100" class="w-full">
+                                <div class="w-full h-64 rounded-lg overflow-hidden">
+                                    <img :src="slide.img" alt="" class="w-full h-full object-cover rounded-lg">
+                                </div>
+                                <!-- Teks di bawah gambar -->
+                                <div class="mt-4">
+                                    <p class="text-gray-700 text-sm text-center" x-text="slide.caption"></p>
+                                </div>
+                            </div>
+                        </template>
+                    </div>
+
+                    <!-- Navigasi Tombol -->
+                    <div class="flex justify-center mt-6 space-x-4">
+                        <button @click="currentSlide = (currentSlide - 1 + slides.length) % slides.length"
+                            class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition">←</button>
+                        <button @click="currentSlide = (currentSlide + 1) % slides.length"
+                            class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition">→</button>
+                    </div>
+
+                    <!-- Bullet Navigasi -->
+                    <div class="flex justify-center mt-4 space-x-2">
+                        <template x-for="(slide, index) in slides" :key="index">
+                            <button @click="currentSlide = index"
+                                :class="{'bg-green-600': currentSlide === index, 'bg-gray-300': currentSlide !== index}"
+                                class="w-3 h-3 rounded-full"></button>
+                        </template>
+                    </div>
                 </div>
-                <!-- Teks di bawah gambar -->
-                <div class="mt-4">
-                    <p class="text-gray-700 text-sm text-center" x-text="slide.caption"></p>
-                </div>
-            </div>
-        </template>
-    </div>
-
-    <!-- Navigasi Tombol -->
-    <div class="flex justify-center mt-6 space-x-4">
-        <button @click="currentSlide = (currentSlide - 1 + slides.length) % slides.length"
-                class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition">←</button>
-        <button @click="currentSlide = (currentSlide + 1) % slides.length"
-                class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition">→</button>
-    </div>
-
-    <!-- Bullet Navigasi -->
-    <div class="flex justify-center mt-4 space-x-2">
-        <template x-for="(slide, index) in slides" :key="index">
-            <button @click="currentSlide = index"
-                    :class="{'bg-green-600': currentSlide === index, 'bg-gray-300': currentSlide !== index}"
-                    class="w-3 h-3 rounded-full"></button>
-        </template>
-    </div>
-</div>
             </div>
 
-            </div>
+        </div>
     </section>
 
     <!-- Contact & Map Section -->
-        <section id="contact" class="py-16 bg-white">
+    <section id="contact" class="py-16 bg-white">
         <div class="container mx-auto px-6">
             <div class="text-center mb-12">
                 <h2 class="text-3xl font-bold text-green-800">Hubungi <span class="text-yellow-500">Kami</span></h2>
@@ -598,62 +848,83 @@
             </div>
         </div>
     </section>
+
     <!-- FAQ Section -->
     <section class="py-16 bg-green-50">
         <div class="container mx-auto px-6">
             <div class="text-center mb-12">
                 <h2 class="text-3xl font-bold text-green-800">Pertanyaan <span class="text-yellow-500">Umum</span></h2>
-                <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Jawaban untuk pertanyaan yang sering ditanyakan pengunjung</p>
+                <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Jawaban untuk pertanyaan yang sering ditanyakan
+                    pengunjung</p>
             </div>
-            
+
             <div class="max-w-3xl mx-auto">
                 <div class="mb-4">
-                    <button class="flex justify-between items-center w-full p-5 bg-white rounded-lg shadow focus:outline-none">
-                        <span class="font-semibold text-left text-green-800">Bagaimana cara menuju ke Kampung Tua Bakau Serip?</span>
+                    <button
+                        class="flex justify-between items-center w-full p-5 bg-white rounded-lg shadow focus:outline-none">
+                        <span class="font-semibold text-left text-green-800">Bagaimana cara menuju ke Kampung Tua Bakau
+                            Serip?</span>
                         <i class="fas fa-chevron-down text-green-600"></i>
                     </button>
                     <div class="p-5 bg-white rounded-b-lg shadow-inner mt-1">
-                        <p class="text-gray-600">Kampung Tua Bakau Serip dapat diakses melalui jalur darat dari pusat Kota Batam dengan waktu tempuh sekitar 45 menit. Anda juga dapat menggunakan transportasi umum atau taksi. Dari Bandara Hang Nadim, waktu tempuh hanya sekitar 10 menit.</p>
+                        <p class="text-gray-600">Kampung Tua Bakau Serip dapat diakses melalui jalur darat dari pusat
+                            Kota Batam dengan waktu tempuh sekitar 45 menit. Anda juga dapat menggunakan transportasi
+                            umum atau taksi. Dari Bandara Hang Nadim, waktu tempuh hanya sekitar 10 menit.</p>
                     </div>
                 </div>
-                
+
                 <div class="mb-4">
-                    <button class="flex justify-between items-center w-full p-5 bg-white rounded-lg shadow focus:outline-none">
-                        <span class="font-semibold text-left text-green-800">Apakah ada biaya masuk ke kawasan wisata?</span>
+                    <button
+                        class="flex justify-between items-center w-full p-5 bg-white rounded-lg shadow focus:outline-none">
+                        <span class="font-semibold text-left text-green-800">Apakah ada biaya masuk ke kawasan
+                            wisata?</span>
                         <i class="fas fa-chevron-down text-green-600"></i>
                     </button>
                     <div class="hidden">
-                        <p class="text-gray-600">Ya, terdapat biaya tiket masuk sebesar Rp 25.000 per orang. Biaya ini digunakan untuk pemeliharaan kawasan konservasi mangrove dan pengembangan desa wisata.</p>
+                        <p class="text-gray-600">Ya, terdapat biaya tiket masuk sebesar Rp 25.000 per orang. Biaya ini
+                            digunakan untuk pemeliharaan kawasan konservasi mangrove dan pengembangan desa wisata.</p>
                     </div>
                 </div>
-                
+
                 <div class="mb-4">
-                    <button class="flex justify-between items-center w-full p-5 bg-white rounded-lg shadow focus:outline-none">
-                        <span class="font-semibold text-left text-green-800">Apa saja fasilitas yang tersedia di lokasi?</span>
+                    <button
+                        class="flex justify-between items-center w-full p-5 bg-white rounded-lg shadow focus:outline-none">
+                        <span class="font-semibold text-left text-green-800">Apa saja fasilitas yang tersedia di
+                            lokasi?</span>
                         <i class="fas fa-chevron-down text-green-600"></i>
                     </button>
                     <div class="hidden">
-                        <p class="text-gray-600">Fasilitas yang tersedia antara lain: area parkir, toilet umum, musholla, gazebo peristirahatan, kafe/warung makan, jembatan kayu untuk menjelajahi hutan mangrove, dan spot foto dengan pemandangan indah.</p>
+                        <p class="text-gray-600">Fasilitas yang tersedia antara lain: area parkir, toilet umum,
+                            musholla, gazebo peristirahatan, kafe/warung makan, jembatan kayu untuk menjelajahi hutan
+                            mangrove, dan spot foto dengan pemandangan indah.</p>
                     </div>
                 </div>
-                
+
                 <div class="mb-4">
-                    <button class="flex justify-between items-center w-full p-5 bg-white rounded-lg shadow focus:outline-none">
-                        <span class="font-semibold text-left text-green-800">Bagaimana cara berpartisipasi dalam VR Tour 360°?</span>
+                    <button
+                        class="flex justify-between items-center w-full p-5 bg-white rounded-lg shadow focus:outline-none">
+                        <span class="font-semibold text-left text-green-800">Bagaimana cara berpartisipasi dalam VR Tour
+                            360°?</span>
                         <i class="fas fa-chevron-down text-green-600"></i>
                     </button>
                     <div class="hidden">
-                        <p class="text-gray-600">VR Tour 360° dapat diakses langsung melalui website ini dengan mengklik menu "VR Tour". Anda dapat menggunakan perangkat komputer, smartphone, atau virtual reality headset untuk pengalaman yang lebih immersif.</p>
+                        <p class="text-gray-600">VR Tour 360° dapat diakses langsung melalui website ini dengan mengklik
+                            menu "VR Tour". Anda dapat menggunakan perangkat komputer, smartphone, atau virtual reality
+                            headset untuk pengalaman yang lebih immersif.</p>
                     </div>
                 </div>
-                
+
                 <div class="mb-4">
-                    <button class="flex justify-between items-center w-full p-5 bg-white rounded-lg shadow focus:outline-none">
-                        <span class="font-semibold text-left text-green-800">Bagaimana cara memesan produk dari marketplace?</span>
+                    <button
+                        class="flex justify-between items-center w-full p-5 bg-white rounded-lg shadow focus:outline-none">
+                        <span class="font-semibold text-left text-green-800">Bagaimana cara memesan produk dari
+                            marketplace?</span>
                         <i class="fas fa-chevron-down text-green-600"></i>
                     </button>
                     <div class="hidden">
-                        <p class="text-gray-600">Untuk memesan produk dari marketplace, pilih produk yang Anda inginkan, tambahkan ke keranjang, dan lakukan checkout. Pembayaran dapat dilakukan melalui transfer bank, e-wallet, atau pembayaran di tempat (COD) untuk area Batam.</p>
+                        <p class="text-gray-600">Untuk memesan produk dari marketplace, pilih produk yang Anda inginkan,
+                            tambahkan ke keranjang, dan lakukan checkout. Pembayaran dapat dilakukan melalui transfer
+                            bank, e-wallet, atau pembayaran di tempat (COD) untuk area Batam.</p>
                     </div>
                 </div>
             </div>
@@ -678,8 +949,8 @@
                 <img src="assets/img/btp.png" alt="btp" class="h-20 w-25">
                 <img src="assets/img/berdikri.png" alt="berdikari" class="h-20 w-80">
                 <img src="assets/img/ditsaintek.jpg" alt="ditsain" class="h-20 w-50">
-                
-                
+
+
             </div>
         </div>
     </section>
@@ -690,7 +961,8 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div>
                     <h4 class="text-xl font-bold mb-4">Kampung Tua <span class="text-yellow-400">Bakau Serip</span></h4>
-                    <p class="text-green-200 mb-4">Harmoni kehidupan bakau dengan laut di tengah keindahan Mangrove, testimoni keberadaan Maha Kuasa.</p>
+                    <p class="text-green-200 mb-4">Harmoni kehidupan bakau dengan laut di tengah keindahan Mangrove,
+                        testimoni keberadaan Maha Kuasa.</p>
                     <div class="flex space-x-4">
                         <a href="#" class="text-white hover:text-yellow-400">
                             <i class="fab fa-facebook-f"></i>
@@ -706,7 +978,7 @@
                         </a>
                     </div>
                 </div>
-                
+
                 <div>
                     <h4 class="text-xl font-bold mb-4">Link Cepat</h4>
                     <ul class="space-y-2">
@@ -718,7 +990,7 @@
                         <li><a href="#contact" class="text-green-200 hover:text-yellow-400">Kontak</a></li>
                     </ul>
                 </div>
-                
+
                 <div>
                     <h4 class="text-xl font-bold mb-4">Paket Wisata</h4>
                     <ul class="space-y-2">
@@ -729,13 +1001,14 @@
                         <li><a href="#" class="text-green-200 hover:text-yellow-400">Paket Kelompok</a></li>
                     </ul>
                 </div>
-                
+
                 <div>
                     <h4 class="text-xl font-bold mb-4">Hubungi Kami</h4>
                     <ul class="space-y-2">
                         <li class="flex items-start">
                             <i class="fas fa-map-marker-alt mt-1 mr-3 text-yellow-400"></i>
-                            <span class="text-green-200">Kampung Tua Bakau Serip, Kecamatan Nongsa, Kota Batam, Kepulauan Riau</span>
+                            <span class="text-green-200">Kampung Tua Bakau Serip, Kecamatan Nongsa, Kota Batam,
+                                Kepulauan Riau</span>
                         </li>
                         <li class="flex items-center">
                             <i class="fas fa-phone mr-3 text-yellow-400"></i>
@@ -748,7 +1021,7 @@
                     </ul>
                 </div>
             </div>
-            
+
             <div class="border-t border-green-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
                 <p class="text-green-200">&copy; 2025 Kampung Tua Bakau Serip. All Rights Reserved.</p>
                 <div class="flex space-x-6 mt-4 md:mt-0">
@@ -781,27 +1054,27 @@
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
     <script>
         // Sticky Navbar
-        $(window).scroll(function() {
+        $(window).scroll(function () {
             if ($(this).scrollTop() > 50) {
                 $('nav').addClass('bg-white shadow-md py-2').removeClass('py-3');
             } else {
                 $('nav').removeClass('bg-white shadow-md py-2').addClass('py-3');
             }
         });
-        
+
         // FAQ Accordion
-        $('button').click(function() {
+        $('button').click(function () {
             $(this).next().slideToggle();
             $(this).find('i').toggleClass('fa-chevron-down fa-chevron-up');
         });
-        
+
         // Mobile Menu Toggle
-        $('.md\\:hidden button').click(function() {
+        $('.md\\:hidden button').click(function () {
             $('.md\\:flex.items-center.space-x-8').toggleClass('hidden flex flex-col items-start space-y-4 absolute top-16 left-0 right-0 bg-white p-4 shadow-md');
         });
-        
+
         // Smooth Scrolling
-        $('a[href^="#"]').on('click', function(e) {
+        $('a[href^="#"]').on('click', function (e) {
             e.preventDefault();
             $('html, body').animate({
                 scrollTop: $($(this).attr('href')).offset().top - 70
@@ -809,9 +1082,5 @@
         });
     </script>
 </body>
+
 </html>
-
-
-
-
-
